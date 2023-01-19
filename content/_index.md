@@ -1,5 +1,5 @@
 ---
-date: "2022-10-24"
+date: "2023-01-19"
 sections:
 # - block: hero
 #   content:
@@ -40,22 +40,22 @@ sections:
     text: null
     username: admin
   id: about
-- block: features
-  content:
-    items:
-    - description: 90%
-      icon: r-project
-      icon_pack: fab
-      name: R
-    - description: 100%
-      icon: chart-line
-      icon_pack: fas
-      name: Statistics
-    - description: 10%
-      icon: camera-retro
-      icon_pack: fas
-      name: Photography
-    title: Skills
+# - block: features
+#   content:
+#     items:
+#     - description: 90%
+#       icon: r-project
+#       icon_pack: fab
+#       name: R
+#     - description: 100%
+#       icon: chart-line
+#       icon_pack: fas
+#       name: Statistics
+#     - description: 10%
+#       icon: camera-retro
+#       icon_pack: fas
+#       name: Photography
+#     title: Skills
 - block: experience
   content:
     date_format: Jan 2006
@@ -74,6 +74,14 @@ sections:
       location: California
       title: CEO
     - company: University X
+      company_logo: org-x
+      company_url: ""
+      date_end: "2020-12-31"
+      date_start: "2016-01-01"
+      description: Taught electronic engineering and researched semiconductor physics.
+      location: California
+      title: Professor of Semiconductor Physics
+    - company: University XYYY
       company_logo: org-x
       company_url: ""
       date_end: "2020-12-31"
@@ -104,6 +112,22 @@ sections:
       organization_url: https://www.edx.org
       title: Blockchain Fundamentals
       url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    - certificate_url: https://www.edx.org
+      date_end: ""
+      date_start: "2021-01-01"
+      description: Formulated informed blockchain models, hypotheses, and use cases.
+      organization: edX
+      organization_url: https://www.edx.org
+      title: Blockchain Fundamentals
+      url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    - certificate_url: https://www.edx.org
+      date_end: ""
+      date_start: "2021-01-01"
+      description: Formulated informed blockchain models, hypotheses, and use cases.
+      organization: edX
+      organization_url: https://www.edx.org
+      title: Blockchain Fundamentals
+      url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     - certificate_url: https://www.datacamp.com
       date_end: "2020-12-21"
       date_start: "2020-07-01"
@@ -118,7 +142,7 @@ sections:
     columns: "2"
 - block: collection
   content:
-    count: 5
+    count: 2
     filters:
       author: ""
       category: ""
@@ -189,21 +213,21 @@ sections:
   design:
     columns: "2"
     view: citation
-- block: collection
-  content:
-    filters:
-      folders:
-      - event
-    title: Recent & Upcoming Talks
-  design:
-    columns: "2"
-    view: compact
-  id: talks
-- block: tag_cloud
-  content:
-    title: Popular Topics
-  design:
-    columns: "2"
+# - block: collection
+#   content:
+#     filters:
+#       folders:
+#       - event
+#     title: Recent & Upcoming Talks
+#   design:
+#     columns: "2"
+#     view: compact
+#   id: talks
+# - block: tag_cloud
+#   content:
+#     title: Popular Topics
+#   design:
+#     columns: "2"
 - block: contact
   content:
     address:
